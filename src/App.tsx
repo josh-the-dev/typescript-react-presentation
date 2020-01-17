@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { FC } from 'react';
+import { Vehicle } from './components/Vehicle';
+import { Driver } from './components/Driver';
 import './App.css';
+import { VehicleType, DriverType } from './types';
 
-function App() {
+const App: FC = () => {
+  const vehicle: VehicleType = {
+    make: 'Seat',
+    model: 'Leon',
+    registration: 'A123',
+  };
+
+  const driver: DriverType = {
+    forename: 'Joe',
+    surname: 'Bloggs',
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Driver driver={driver} />
+      <Vehicle vehicle={vehicle} />
     </div>
   );
-}
+};
 
 export default App;

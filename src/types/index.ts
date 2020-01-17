@@ -1,10 +1,10 @@
-export interface Vehicle {
+export interface VehicleType {
   make: string;
   model: string;
   registration: string;
 }
 
-export interface Driver {
+export interface DriverType {
   forename: string;
   surname: string;
 }
