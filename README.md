@@ -60,8 +60,3 @@ src/types - Types utilised throughout the application.
 
 * [React](https://reactjs.org/) - React, JS Library
 * [TypeScript](https://www.typescriptlang.org/) - TypeScript, superset of JavaScript
-
-
-## Authors
-
-* **Joshua Grant** - *Wrote presentation and app* - [PurpleBooth](https://github.com/Grantjoshua1995)
