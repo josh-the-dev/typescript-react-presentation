@@ -8,11 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the app
-
-```
-Node - https://nodejs.org/en/ 
-```
+[Node](https://nodejs.org/en/)
 
 ### Installing
 
@@ -43,6 +39,22 @@ yarn start
 ```
 
 
+## Directories of interest
+
+```
+rootDir/JsvsTypeScriptExample - Simple app that will turn a TypeScript file into a vanilla JS file. 
+
+Simply cd into this directory and run "tsc driver.ts"
+```
+
+```
+src/components - Components for the react app. This is where all components for the app go.
+```
+
+```
+src/types - Types utilised throughout the application.
+```
+
 
 ## Built With
 
@@ -52,4 +64,4 @@ yarn start
 
 ## Authors
 
-* **Joshua Grant** - *Put presentation together* - [PurpleBooth](https://github.com/Grantjoshua1995)
+* **Joshua Grant** - *Wrote presentation and app* - [PurpleBooth](https://github.com/Grantjoshua1995)
