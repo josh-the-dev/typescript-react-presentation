@@ -11,14 +11,25 @@ const App: FC = () => {
     registration: 'A123',
   };
 
-  const driver: DriverType = {
+  const driver1: DriverType = {
+    forename: 'Joe',
+    middleName: 'Jim',
+    surname: 'Bloggs',
+    age: 24,
+    isPrimaryDriver: true,
+  };
+
+  const driver2: DriverType = {
     forename: 'Joe',
     surname: 'Bloggs',
+    age: 24,
+    isPrimaryDriver: false,
   };
 
   return (
     <div className="App">
-      <Driver driver={driver} />
+      <Driver driver={driver1} />
+      <Driver driver={driver2} />
       <Vehicle vehicle={vehicle} />
     </div>
   );

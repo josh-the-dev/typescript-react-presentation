@@ -30,6 +30,7 @@ Install the packages
 
 ```
 yarn
+yarn global add TypeScript
 ```
 
 Start up the app
@@ -38,11 +39,10 @@ Start up the app
 yarn start
 ```
 
-
 ## Directories of interest
 
 ```
-rootDir/JsvsTypeScriptExample - Simple app that will turn a TypeScript file into a vanilla JS file. 
+rootDir/JsvsTypeScriptExample - Simple app that will turn a TypeScript file into a vanilla JS file.
 
 Simply cd into this directory and run "tsc driver.ts"
 ```
@@ -55,8 +55,7 @@ src/components - Components for the react app. This is where all components for 
 src/types - Types utilised throughout the application.
 ```
 
-
 ## Built With
 
-* [React](https://reactjs.org/) - React, JS Library
-* [TypeScript](https://www.typescriptlang.org/) - TypeScript, superset of JavaScript
+- [React](https://reactjs.org/) - React, JS Library
+- [TypeScript](https://www.typescriptlang.org/) - TypeScript, superset of JavaScript

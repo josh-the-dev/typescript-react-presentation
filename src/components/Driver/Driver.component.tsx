@@ -8,10 +8,12 @@ export interface DriverProps {
 export const Driver: FC<DriverProps> = ({ driver }) => {
   return (
     <>
-      <h2>Your information:</h2>
+      <h2>Driver information:</h2>
       <p>
-        {driver.forename} {driver.surname}
+        {driver.forename} {driver.middleName} {driver.surname}
       </p>
+      <p>{driver.age} years old</p>
+      {driver.isPrimaryDriver && <strong>Primary driver</strong>}
     </>
   );
 };

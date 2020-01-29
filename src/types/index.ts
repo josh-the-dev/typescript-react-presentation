@@ -6,5 +6,8 @@ export interface VehicleType {
 
 export interface DriverType {
   forename: string;
+  middleName?: string;
   surname: string;
+  isPrimaryDriver: boolean;
+  age: number;
 }
